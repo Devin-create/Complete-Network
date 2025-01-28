@@ -22,7 +22,7 @@
 
 
 ## Namenskonvention
-### Überbegriffe:   1   2§
+### Überbegriffe: 
 - ap: Accesspoint 
 - sw: Switch
 - rt: Router
