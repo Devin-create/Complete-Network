@@ -49,10 +49,11 @@
 - ap01: Accesspoint
   
 ***
+w
 
 ## Dokumentation
 
 1. Als Erstes erstellten wir einen Plan, aufgeteilt in einem Netzwerkplan, als auch eine Tabelle, welches die Adressierung visualisiert.  
 2. Zunächst hatten wir die All-In-One PCs aufgesetzt und die OS (2x Linux, 1x Windows) neu eingebunden. Dies hatten wir mithilfe eines bootfähigen Stick gemacht, nach dem wir im Bios die Startreihenfolge für das Booten über den Stick geändert hatten. Anschliessend wurden die IPs auf diesen Clients bestummen. 2 wurden mittels DHCP adressiert, und die Adresse für den Ubuntu Server wurde manuell vergeben.
 3. Zeitgleich hatten wir auf dem Router NAT eingestellt, und die IP-Adressen modifiziert.
-4. Danach installierten wir einen Webserver. Dafür wurde NGINX verwendet. Anschliessend war das Ziel, den Wochenbericht über FTP von dem Laptop auf den Server zu transferieren.
+4. Danach installierten wir einen Webserver. Dafür wurde NGINX verwendet. Anschliessend war das Ziel, den Wochenbericht über FTP von dem Laptop auf den Server zu transferieren. Dabei mussten auch Berechtigungen für das transferieren geändert werden.
